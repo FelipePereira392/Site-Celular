@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
-    <style>
-        body{
+    body{
             background-color: #495867;
             height: 100vh;
             
@@ -108,7 +101,7 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bolder;
             font-size: 1.3em;
-            
+            transition:width 0.5s;
        }
        div.celular{
             background-color: #C5D5EA;
@@ -119,7 +112,7 @@
             box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.445);
             padding-top: 10px;
             border: 2px solid black;
-            background-image: url('./fundo.jpg');
+            background-image: url('./Imagens/fundo.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -131,17 +124,9 @@
             height: 5px;
             margin: 675px auto;
             margin-bottom: 0px;
+            transition:width 0.5s;
         }
-    </style>
-</head>
-<body>
-    <main id="cima">
-        <div class="celular"><div class="dynamic-island"></div><div class="navegador"></div></div>
-    </main>
-    <main id="baixo">
-        <div class="cima"><div class="dentro"></div></div>
-        <div class="meio"><div class="dentro"></div></div>
-        <div class="fim"><div class="dentro"></div></div>
-    </main>
-</body>
-</html>
+
+        .navegador:hover{
+            width: 250px;
+        }
